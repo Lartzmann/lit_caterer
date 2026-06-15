@@ -1,12 +1,160 @@
-# React + Vite
+# Lit Caterer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Lit Caterer is a modern food ordering web application built with React, Vite, and Tailwind CSS. The platform is designed to help customers browse meals, place orders, and manage their food purchases while providing administrators with tools to manage menus and orders.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Customer Features
+- Browse available meals and food categories
+- View detailed product information
+- Add items to cart
+- Place food orders
+- Guest checkout support
+- Phone number and OTP-based authentication
+- Responsive design for mobile and desktop devices
 
-## Expanding the ESLint configuration
+### Admin Features
+- Dashboard overview
+- Menu management
+- Order management
+- Easy-to-use administrative interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- React Router
+
+### State Management & Storage
+- React Hooks
+- Local Storage (for development and temporary data persistence)
+
+## Project Structure
+
+```text
+src/
+├── assets/
+├── components/
+├── layouts/
+├── pages/
+│   ├── admin/
+│   └── user/
+├── routes/
+├── services/
+├── hooks/
+└── utils/
+```
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Node.js (v18 or later recommended)
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/lit-caterer.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd lit-caterer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## Available Scripts
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
+### Run Linting
+
+```bash
+npm run lint
+```
+
+## Development Roadmap
+
+### Phase 1
+- [x] Project setup
+- [x] React + Vite configuration
+- [x] Tailwind CSS integration
+
+### Phase 2
+- [ ] User authentication with OTP
+- [ ] Home page
+- [ ] Product details page
+- [ ] Shopping cart
+
+### Phase 3
+- [ ] Order management
+- [ ] Checkout flow
+- [ ] User profile management
+
+### Phase 4
+- [ ] Admin dashboard
+- [ ] Menu management
+- [ ] Order tracking and updates
+
+### Phase 5
+- [ ] Backend integration
+- [ ] Database integration
+- [ ] Payment processing
+
+## Future Enhancements
+
+- Loyalty and rewards system
+- Push notifications
+- Delivery tracking
+- Multiple vendor support
+- Analytics dashboard
+- Mobile application
+
+## Contributing
+
+Contributions, suggestions, and feedback are welcome. Feel free to fork the project and submit a pull request.
+
+## Author
+
+Developed by Emmanuel Teye Lartey.
